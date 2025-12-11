@@ -19,7 +19,7 @@ Add to cart / wishlist
 
 Secure user authentication (JWT)
 
-Order checkout & order history
+Order checkout 
 
 Responsive UI for mobile and desktop
 
@@ -38,4 +38,4 @@ Backend: Node.js, Express.js
 Database: MongoDB
 Host : Vercel
 Authentication: JWT & Bcrypt
-Payment gateway : eSewa
+Payment gateway : eSewa payment
