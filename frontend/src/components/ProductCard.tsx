@@ -19,7 +19,7 @@ export function ProductCard({ product }: ProductCardProps) {
     addToCart(product);
     toast({
       title: 'Added to cart',
-      description: `${product.name} has been added to your cart.`,
+      description: `${product.name} has been added to your cart .`,
     });
   };
 
@@ -27,7 +27,7 @@ export function ProductCard({ product }: ProductCardProps) {
     e.preventDefault();
     toggleWishlist(product.id);
     toast({
-      title: inWishlist ? 'Removed from wishlist' : 'Added to wishlist',
+      title: inWishlist ? 'Removed from wishlist ' : 'Added to wishlist',
       description: `${product.name} has been ${inWishlist ? 'removed from' : 'added to'} your wishlist.`,
     });
   };
