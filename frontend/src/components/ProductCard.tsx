@@ -18,7 +18,7 @@ export function ProductCard({ product }: ProductCardProps) {
     e.preventDefault();
     addToCart(product);
     toast({
-      title: 'Added to cart',
+      title: 'Added to cart ',
       description: `${product.name} has been added to your cart .`,
     });
   };
