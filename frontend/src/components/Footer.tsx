@@ -13,7 +13,7 @@ export function Footer() {
               <span className="font-serif text-xl font-bold text-gradient">StringMaster</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-              Your destination for premium guitar and accessories. Crafting musical dreams since 2012.
+              Your destination for premium guitars and accessories. Crafting musical dreams since 2012.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
