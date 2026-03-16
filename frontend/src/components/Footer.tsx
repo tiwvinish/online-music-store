@@ -79,7 +79,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary shrink-0" />
-                <span>info@stringmaster.com</span>
+                <span>info@stringmasters.com</span>
               </li>
             </ul>
           </div>
